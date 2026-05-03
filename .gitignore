@@ -35,3 +35,7 @@ grid_ex-*.tar
 npm-debug.log
 /assets/node_modules/
 
+# Local environment variables and secrets.
+.env
+.env.*
+
