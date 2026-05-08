@@ -55,6 +55,7 @@ defmodule GridEx.MixProject do
        app: false,
        compile: false,
        depth: 1},
+      {:nx, "~> 0.9"},
       {:swoosh, "~> 1.16"},
       {:req, "~> 0.5"},
       {:telemetry_metrics, "~> 1.0"},
