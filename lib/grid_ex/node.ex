@@ -13,8 +13,16 @@ defmodule GridEx.Node do
           # voltage in power unit
           v_pu: float(),
           # angle 
-          theta: float()
+          theta: float(),
+          schedule: GridEx.Schedule.t() | nil
         }
 
-  defstruct id: nil, name: nil, bus_type: nil, type: nil, p_mw: nil, v_pu: nil, theta: nil
+  defstruct id: nil,
+            name: nil,
+            bus_type: nil,
+            type: nil,
+            p_mw: nil,
+            v_pu: nil,
+            theta: nil,
+            schedule: nil
 end
